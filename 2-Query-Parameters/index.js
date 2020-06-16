@@ -8,3 +8,14 @@ const main = async (event) => {
 }
 
 exports.handler = main
+
+/*
+
+TEMPLATE MAPPING:
+
+{
+    "min": "$input.params('min')",
+    "max": "$input.params('max')"
+}
+
+*/
