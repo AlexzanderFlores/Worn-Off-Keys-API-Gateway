@@ -1,0 +1,12 @@
+{
+  "name": "2-Query-Parameters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -e \"(async () => console.log(await require('./index').handler({'min':10,'max':15})))();\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
